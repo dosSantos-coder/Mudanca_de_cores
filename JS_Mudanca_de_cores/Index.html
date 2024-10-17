@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino CSS/Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script> 
+    function mudaCorzinha(novaCor){
+    document.getElementById('quadrado').style.backgroundColor = novaCor
+    }
+    
+    
+    </script>
+</head>
+<body>
+<h1>Quadrado que muda de cor</h1>
+
+<button type="button" onclick="mudaCorzinha('#000000')">Preto</button>
+<button type="button" onclick="mudaCorzinha('#0000CC')">Azul</button>
+<button type="button" onclick="mudaCorzinha('#FFFF00')">Amarelo</button>
+<button type="button" onclick="mudaCorzinha('#006600')">Verde</button>
+<button type="button" onclick="mudaCorzinha('#FF6600')">Laranja</button>
+<button type="button" onclick="mudaCorzinha('#FF0000')">Vermelho</button>
+
+<hr>
+
+<h1>Observe o Quadrado</h1>
+
+<div id="quadrado"></div>
+
+</body>
+</html>
